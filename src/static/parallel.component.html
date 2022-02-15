@@ -1,0 +1,10 @@
+<div>
+    Base:<input type="text" [(ngModel)]="breadth">Meters<br/>
+    <br/>
+    Height:<input type="text" [(ngModel)]="height">Meters<br/>
+    <br/>
+    <input type = "button" (click)="onCalculatearea()" value="Calculate Area"><br/>
+    <br/>
+    Area:<input type="text" readonly value="0" [value]="area">Meter<sup>2</sup>
+
+</div>

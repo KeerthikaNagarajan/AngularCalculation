@@ -1,0 +1,11 @@
+<div>
+    Length:<input type="text" [(ngModel)]="clength">Meters<br/>
+    <br/>
+    Height:<input type="text" [(ngModel)]="cheight">Meters<br/>
+    <br/>
+    Breadth:<input type="text" [(ngModel)]="cbreadth">Meters<br/>
+    <br/>
+    <input type = "button" (click)="onCalculateVolume()" value="Calculate Volume"><br/>
+    <br/>
+    Volume:<input type="text" readonly value="0" [value]="volume">Meter<sup>3</sup>
+</div>
